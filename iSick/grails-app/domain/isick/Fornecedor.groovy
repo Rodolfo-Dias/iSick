@@ -5,17 +5,17 @@ class Fornecedor {
 	String razaoSocial
 	String nomeFantasia
 	String inscricaoEstadual	 
-	String endereco	 
+	String logradouro
 	String municipio	 
 	String bairro	 
-	int cep	 
+	String cep	 
 	String telefone	
     static constraints = {
         cnpj size: 11..14, blank:false, unique: true
         razaoSocial blank: false
 	nomeFantasia blank: false
 	inscricaoEstadual blank: false
-	endereco size: 1..30, blank:false
+	logradouro size: 1..30, blank:false
 	municipio size: 1..30, blank:false
 	bairro size: 1..30, blank:false
 	cep size:8..9, blank: false
