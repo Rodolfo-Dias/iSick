@@ -2,7 +2,7 @@ package isick
 
 class Produto {
     
-    int codProduto;	 
+    int codProduto
     String nomeProduto
     int quantidadeEstoque
     String tributacaoPisCofins
