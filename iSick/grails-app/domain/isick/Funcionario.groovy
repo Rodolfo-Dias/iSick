@@ -14,7 +14,7 @@ class Funcionario extends Pessoa{
     cargo blank: false
     dataDemissao blank: false
     loginEmail blank: false, unique: true, email: true
-    senha blank: false, password: true, size:8..25
+    senha blank: false, password: true, size:4..8
     }
     
 }
