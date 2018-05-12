@@ -8,8 +8,8 @@ class Produto {
     String tributacaoPisCofins
     String tributacaoIcms
     Date dataCadastro
-    int precoVenda
-    int precoCusto
+    Double precoVenda
+    Double precoCusto
     String tarja
         
     static constraints = {
