@@ -10,7 +10,9 @@ class Fornecedor {
 	String bairro	 
 	String cep	 
 	String telefone	
+        
     static constraints = {
+        
         cnpj size: 11..14, blank:false, unique: true
         razaoSocial blank: false
 	nomeFantasia blank: false
