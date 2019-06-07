@@ -2,7 +2,7 @@ package isick
 
 class FornecedorController {
 
-    def index() { }
+    //def index() { }
     static scaffold = Fornecedor
     
 }
